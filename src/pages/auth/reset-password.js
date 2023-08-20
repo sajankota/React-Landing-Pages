@@ -28,21 +28,21 @@ class ResetPassword extends Component {
                                                         <div className="card-body p-0">
                                                             <h4 className="card-title">Recover Account</h4>
                                                             <form className="login-form mt-4">
-                                                            <div className="row">
-                                                            <div className="col-lg-12">
-                                                                <p className="text-muted">Please enter your email address. You will receive a link to create a new password via email.</p>
-                                                                <div className="mb-3">
-                                                                    <label className="form-label">Email address <span className="text-danger">*</span></label>
-                                                                    <input type="email" className="form-control" placeholder="Enter Your Email Address" name="email" required />
+                                                                <div className="row">
+                                                                    <div className="col-lg-12">
+                                                                        <p className="text-muted">Please enter your email address. You will receive a link to create a new password via email.</p>
+                                                                        <div className="mb-3">
+                                                                            <label className="form-label">Email address <span className="text-danger">*</span></label>
+                                                                            <input type="email" className="form-control" placeholder="Enter Your Email Address" name="email" required />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className="col-lg-12">
+                                                                        <button className="btn btn-primary btn-pills border-0 w-100">Send</button>
+                                                                    </div>
+                                                                    <div className="mx-auto">
+                                                                        <p className="mb-0 mt-3"><small className="text-dark me-2">Remember your password ?</small> <Link to="/login" className="text-dark fw-bold">Sign in</Link></p>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div className="col-lg-12">
-                                                                <button className="btn btn-primary btn-pills border-0 w-100">Send</button>
-                                                            </div>
-                                                            <div className="mx-auto">
-                                                                <p className="mb-0 mt-3"><small className="text-dark me-2">Remember your password ?</small> <Link to="/auth-login" className="text-dark fw-bold">Sign in</Link></p>
-                                                            </div>
-                                                        </div>
                                                             </form>
                                                         </div>
                                                     </div>

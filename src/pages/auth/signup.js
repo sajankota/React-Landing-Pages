@@ -58,20 +58,20 @@ class Signup extends Component {
                                                                     </div>
 
                                                                     <div className="col-md-12">
-                                                                <div className="mb-3">
-                                                                    <div className="form-check">
-                                                                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                                                        <label className="form-check-label">I Accept <a href="#" className="text-primary">Terms And Condition</a></label>
+                                                                        <div className="mb-3">
+                                                                            <div className="form-check">
+                                                                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                                                                <label className="form-check-label">I Accept <a href="#" className="text-primary">Terms And Condition</a></label>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
 
                                                                     <div className="col-lg-12 mb-0">
                                                                         <button className="btn btn-primary btn-pills border-0 w-100">Register</button>
                                                                     </div>
 
                                                                     <div className="col-12">
-                                                                        <p className="mb-0 mt-3"><small className="text-dark me-2">Already have an account ?</small> <Link to="/auth-login" className="text-dark fw-semibold">Sign in</Link></p>
+                                                                        <p className="mb-0 mt-3"><small className="text-dark me-2">Already have an account ?</small> <Link to="/login" className="text-dark fw-semibold">Sign in</Link></p>
                                                                     </div>
                                                                 </div>
                                                             </form>

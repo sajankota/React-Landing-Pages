@@ -28,9 +28,9 @@ root.render(
       <Route path="/index-four" element={<IndexFour />} />
       <Route path="/index-five" element={<IndexFive />} />
       <Route path="/index-six" element={<IndexSix />} />
-      <Route path="/auth-login" element={<Login />} />
-      <Route path="/auth-signup" element={<Signup />} />
-      <Route path="/auth-reset-password" element={<ResetPassword />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/reset-password" element={<ResetPassword />} />
     </Routes>
   </BrowserRouter>
 );

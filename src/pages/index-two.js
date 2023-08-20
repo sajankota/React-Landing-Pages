@@ -31,7 +31,7 @@ class IndexTwo extends Component {
         this.state = {
             isOpen: false,
             arrow: false,
-          
+
         };
         this.handleScroll = this.handleScroll.bind(this);
         this.toggleMenu = this.toggleMenu.bind(this);
@@ -52,7 +52,7 @@ class IndexTwo extends Component {
             });
         }
     }
-    
+
     /**
      * Window scroll
      */
@@ -137,7 +137,7 @@ class IndexTwo extends Component {
                                 <ul className="list-inline menu-social mb-0 ps-lg-4 ms-2">
                                     <li className="list-inline-item">
                                         <Link2
-                                            to="/auth-login"
+                                            to="/login"
                                             target="_blank"
                                             className="btn btn-icon btn-pills btn-primary border-0"
                                         >

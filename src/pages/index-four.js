@@ -194,7 +194,7 @@ class IndexThree extends Component {
                 <ul className="list-inline menu-social mb-0 ps-lg-4 ms-2">
                   <li className="list-inline-item">
                     <Link2
-                      to="/auth-login"
+                      to="/login"
                       target="_blank"
                       className="btn btn-icon btn-pills btn-primary border-0"
                     >
@@ -221,10 +221,10 @@ class IndexThree extends Component {
                 <div className="col-12">
                   <div className="title-heading text-center">
                     <a
-                     href="#!"
-                     data-type="youtube"
-                     data-id="yba7hPeTSjk"
-                     onClick={this.openModal}
+                      href="#!"
+                      data-type="youtube"
+                      data-id="yba7hPeTSjk"
+                      onClick={this.openModal}
                       className="play-btn  mb-5 lightbox border bg-white shadow-lg"
                     >
                       <Icon.Play
